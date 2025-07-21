@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Owen's IT Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="main-grid">
+    <header class="widget">
+      <h1>Owen Spencer</h1>
+      <p>IT Systems Engineer | Developer | Problem Solver</p>
+      <div class="circle-image">
+  <img src="profile.jpg" alt="Profile Picture">
+</div>
+
+    </header>
+
+    <section id="about" class="widget">
+      <h2>About Me</h2>
+      <p>
+        -I enjoy waterpolo in which I have played for Great Britain but now play in the British waterpolo league for Northampton.<br>
+        -I also enjoy gaming and have a passion for building computers as well as building apps, creating games, automating tasks, and connecting things in fun, useful ways.<br>
+        -I am always looking to learn new skills and technologies, and I thrive in collaborative environments where I can share knowledge and grow with my team.<br>
+        -I have a passion for technology and problem-solving, with 1 years experience on the service desk, see below for my journey so far.<br>
+      </p>
+    </section>
+
+    <section id="roadmap" class="widget">
+      <h2>My Career Roadmap</h2>
+      <div class="roadmap">
+        <div class="roadmap-step" data-title="Breakfast Team Member" data-desc="Started my career as a Breakfast Team Member, providing excellent customer service and support. Developed strong communication and teamwork skills.">
+          <div class="roadmap-dot"></div>
+          <div class="roadmap-title">Breakfast Team Member(Holiday Inn 2021-2024)</div>
+          <div class="roadmap-desc">Click for more info</div>
+        </div>
+        <div class="roadmap-step" data-title="FCR Engineer" data-desc="Started my IT career as an FCR Engineer, providing first-contact technical support and troubleshooting for end-users.">
+          <div class="roadmap-dot"></div>
+          <div class="roadmap-title">FCR Engineer(EKCO 2024-2025)</div>
+          <div class="roadmap-desc">Click for more info</div>
+        </div>
+        <div class="roadmap-step" data-title="Tools and Systems Specialist" data-desc="Designing and maintaining scalable IT infrastructure and cloud solutions. Leading projects and mentoring junior staff.">
+          <div class="roadmap-dot"></div>
+          <div class="roadmap-title">Current: Tools and Systems Specialist (EKCO 2025-Present)</div>
+          <div class="roadmap-desc">Click for more info</div>
+        </div>
+        <div class="roadmap-step" data-title="Future Goal: DevOps Engineer" data-desc="Aiming to move in to DevOps as I currently automate repetitive support tasks and workflows into Freshdesk to reduce ticket volume and increase efficiency for our MSP.">
+          <div class="roadmap-dot"></div>
+          <div class="roadmap-title">Future Goal: DevOps Engineer</div>
+          <div class="roadmap-desc">Click for more info</div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects Carousel -->
+    <div class="carousel widget">
+      <button class="carousel-btn left">&#8592;</button>
+      <div class="carousel-track">
+        <div class="carousel-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://via.placeholder.com/120x80?text=Project+1" alt="Project 1">
+              <h3>Project 1</h3>
+            </div>
+            <div class="card-back">
+              <h4>Infrastructure Automation</h4>
+              <p>Automated server provisioning and configuration using Ansible and PowerShell.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://via.placeholder.com/120x80?text=Project+2" alt="Project 2">
+              <h3>Project 2</h3>
+            </div>
+            <div class="card-back">
+              <h4>Cloud Migration</h4>
+              <p>Led migration of legacy systems to Azure, improving reliability and scalability.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="https://via.placeholder.com/120x80?text=Project+3" alt="Project 3">
+              <h3>Project 3</h3>
+            </div>
+            <div class="card-back">
+              <h4>Helpdesk Portal</h4>
+              <p>Developed a web-based helpdesk portal to streamline IT support requests.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn right">&#8594;</button>
+    </div>
+
+    <section id="contact" class="widget">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:owenspencer090@yahoo.co.uk">owenspencer090@yahoo.co.uk</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/owen-spencer-255325364/">My LinkedIn</a></p>
+    </section>
+  </div>
+
+  <!-- Modal for roadmap details -->
+  <div id="roadmap-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal" style="display:none;">
+    <div class="modal-content project-modal-content">
+      <span class="close-btn project-close-btn">&times;</span>
+      <div id="project-modal-inner"></div>
+    </div>
+  </div>
+
+  <!-- Gaming setup background shapes -->
+  <div class="gaming-bg">
+    <!-- Monitor/TV -->
+    <svg class="gaming-shape monitor" viewBox="0 0 220 140">
+      <rect x="10" y="20" width="200" height="100" rx="12" fill="#232946" stroke="#42a5f5" stroke-width="4"/>
+      <rect x="90" y="120" width="40" height="12" rx="4" fill="#42a5f5"/>
+    </svg>
+    <!-- PC Tower -->
+    <svg class="gaming-shape pc" viewBox="0 0 80 120">
+      <rect x="10" y="10" width="60" height="100" rx="10" fill="#232946" stroke="#ab47bc" stroke-width="5"/>
+      <circle cx="40" cy="100" r="8" fill="#ab47bc" opacity="0.5"/>
+      <rect x="30" y="30" width="20" height="40" rx="4" fill="#fff" opacity="0.08"/>
+    </svg>
+    <!-- Keyboard -->
+    <svg class="gaming-shape keyboard" viewBox="0 0 180 40">
+      <rect x="0" y="10" width="180" height="24" rx="8" fill="#232946" stroke="#ffb300" stroke-width="3"/>
+      <rect x="12" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="36" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="60" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="84" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="108" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="132" y="18" width="18" height="8" rx="2" fill="#fff" opacity="0.18"/>
+      <rect x="156" y="18" width="12" height="8" rx="2" fill="#fff" opacity="0.18"/>
+    </svg>
+    <!-- Mouse -->
+    <svg class="gaming-shape mouse" viewBox="0 0 40 60">
+      <ellipse cx="20" cy="30" rx="16" ry="26" fill="#232946" stroke="#ab47bc" stroke-width="3"/>
+      <rect x="16" y="10" width="8" height="18" rx="4" fill="#ab47bc" opacity="0.3"/>
+    </svg>
+    <!-- Mouse Mat -->
+    <svg class="gaming-shape mousemat" viewBox="0 0 100 24">
+      <rect x="2" y="2" width="96" height="20" rx="8" fill="#232946" stroke="#42a5f5" stroke-width="3"/>
+    </svg>
+    <!-- Nintendo Switch -->
+    <svg class="gaming-shape switch" viewBox="0 0 90 40">
+      <rect x="20" y="8" width="50" height="24" rx="6" fill="#232946" stroke="#1976d2" stroke-width="3"/>
+      <rect x="5" y="8" width="15" height="24" rx="6" fill="#e53935"/>
+      <rect x="70" y="8" width="15" height="24" rx="6" fill="#1976d2"/>
+      <circle cx="13" cy="20" r="3" fill="#fff" opacity="0.3"/>
+      <circle cx="77" cy="20" r="3" fill="#fff" opacity="0.3"/>
+    </svg>
+    <!-- Headphones -->
+    <svg class="gaming-shape headphones" viewBox="0 0 90 60">
+      <path d="M15,45 Q10,20 45,10 Q80,20 75,45" fill="none" stroke="#66bb6a" stroke-width="6"/>
+      <rect x="5" y="40" width="12" height="18" rx="6" fill="#232946" stroke="#66bb6a" stroke-width="3"/>
+      <rect x="73" y="40" width="12" height="18" rx="6" fill="#232946" stroke="#66bb6a" stroke-width="3"/>
+    </svg>
+    <!-- Plant -->
+    <svg class="gaming-shape plant" viewBox="0 0 60 80">
+      <ellipse cx="30" cy="60" rx="18" ry="18" fill="#43a047" opacity="0.7"/>
+      <rect x="24" y="60" width="12" height="18" rx="4" fill="#795548"/>
+      <ellipse cx="20" cy="50" rx="8" ry="18" fill="#66bb6a" opacity="0.8" transform="rotate(-20 20 50)"/>
+      <ellipse cx="40" cy="50" rx="8" ry="18" fill="#66bb6a" opacity="0.8" transform="rotate(20 40 50)"/>
+    </svg>
+  </div>
+
+  <div class="bg-shape one"></div>
+  <div class="bg-shape two"></div>
+  <div class="bg-shape three"></div>
+
+  <script>
+    // Modal logic
+    const steps = document.querySelectorAll('.roadmap-step');
+    const modal = document.getElementById('roadmap-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalDesc = document.getElementById('modal-desc');
+    const closeBtn = document.querySelector('.close-btn');
+
+    steps.forEach(step => {
+      step.addEventListener('click', () => {
+        modalTitle.textContent = step.getAttribute('data-title');
+        modalDesc.textContent = step.getAttribute('data-desc');
+        modal.style.display = 'flex';
+      });
+    });
+
+    closeBtn.onclick = function() {
+      modal.style.display = 'none';
+    };
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    };
+
+    // Project card modal logic
+    document.querySelectorAll('.carousel-card').forEach(card => {
+      card.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const front = card.querySelector('.card-front');
+        const back = card.querySelector('.card-back');
+        // Clone content for modal
+        const modalInner = document.getElementById('project-modal-inner');
+        modalInner.innerHTML = `
+          ${front.innerHTML}
+          ${back.innerHTML}
+        `;
+        document.getElementById('project-modal').style.display = 'flex';
+      });
+    });
+
+    // Close modal
+    document.querySelector('.project-close-btn').onclick = function() {
+      document.getElementById('project-modal').style.display = 'none';
+    };
+    // Close modal when clicking outside content
+    document.getElementById('project-modal').onclick = function(e) {
+      if (e.target === this) this.style.display = 'none';
+    };
+  </script>
+</body>
+</html>
